@@ -82,6 +82,7 @@
 
     .recipe-info {
         flex-basis: 30%;    
+       
     }
 
     /* Compaiono i nomi delle piattaforme social */
@@ -103,6 +104,16 @@
         gap: 5px;
     }
 
-
- }
+    
+    /* Nel footer i dati del sito e il menu di navigazione di dispongono sulla stessa linea ma su lati opposti */
+    
+    footer {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    address {
+        text-align: left;
+    }
+}  
 
