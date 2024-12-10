@@ -1,9 +1,29 @@
 /* Soluzione qui */
 
+
+/* 
+    media-mobile-f-lg 576px
+    
+ */
+@media screen and (min-width: 576px) {
+
+    .social-networks button {
+        flex-basis: calc(100% / 5 - 20px);
+
+    }
+    
+    .presentation img {
+        float: left;
+        margin-right: 1em;
+    }
+    
+}
+
+
 /* 
     media-mobile-f-md 768px
  */
-@media screen and  (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
     /* Il logo nell'header si allinea a sinistra */
     #topbar {
@@ -37,52 +57,57 @@
     }
 
     /* I bottoni social si allargano */
-    .social-networks button {
+
+    /* .social-networks button {
         flex-basis: calc(100% / 5 - 20px);
 
-    }
+    } */
 
     /* compare il banner pubblicitario */
     .ads {
         display: inline-block;
     }
 
+    
     /* l'immagine nella descrizione della ricetta viene circondata dal testo */
-    .presentation img {
+
+    /* .presentation img {
         float: left;
         margin-right: 1em;
-    }
+    } */
 }
 
 /* 
-    media-mobile-f-lg  992px
+    media-mobile-f-ld  992px
  */
 
- @media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
 
     /* La grandezza el titolo della ricetta aumenta ancora di più */
     .recipe-name {
         font-size: 3rem;
     }
+
     /* Le informazioni della ricetta tornano a disporsi una sotto l'altra */
 
     .quick-notes ul {
-        display: block;   
+        display: block;
     }
 
     /* Il video e le altre informazioni della ricetta si dispongono uno accanto all'altro */
     .recipe-card {
         display: flex;
-        
+
     }
+
     .recipe-video {
         flex-basis: 70%;
         height: auto;
     }
 
     .recipe-info {
-        flex-basis: 30%;    
-       
+        flex-basis: 30%;
+
     }
 
     /* Compaiono i nomi delle piattaforme social */
@@ -104,16 +129,16 @@
         gap: 5px;
     }
 
-    
+
     /* Nel footer i dati del sito e il menu di navigazione di dispongono sulla stessa linea ma su lati opposti */
-    
+
     footer {
         display: flex;
         justify-content: space-between;
-        
+
     }
+
     address {
         text-align: left;
     }
-}  
-
+}
