@@ -58,11 +58,8 @@
 
     /* I bottoni social si allargano */
 
-    /* .social-networks button {
-        flex-basis: calc(100% / 5 - 20px);
 
-    } */
-
+    
     /* compare il banner pubblicitario */
     .ads {
         display: inline-block;
@@ -71,10 +68,7 @@
     
     /* l'immagine nella descrizione della ricetta viene circondata dal testo */
 
-    /* .presentation img {
-        float: left;
-        margin-right: 1em;
-    } */
+
 }
 
 /* 
